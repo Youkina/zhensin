@@ -1,0 +1,50 @@
+body {
+    background-image: url('2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .nav-btn {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-btn::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #00ffff;
+    transition: width 0.3s;
+  }
+  
+  .nav-btn:hover::after {
+    width: 100%;
+  }
+  
+  .zoomable-img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .zoomable-img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* 首頁的背景設定 */
+  #ma {
+    background: transparent; /* 首頁背景透明 */
+    padding: 2rem; /* 可根據需要設計其他樣式 */
+  }
+  
+  .card {
+    background-color: rgba(0, 0, 0, 0.6); /* 半透明背景 */
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    opacity: 0.9;
+  }
+  

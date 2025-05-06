@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>個人網頁</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="text-white bg-black/60">
+
+  <!-- 導覽列 -->
+  <nav class="fixed top-0 w-full bg-black/70 p-4 z-50 flex justify-center gap-6 text-white">
+    <button class="nav-btn" onclick="showPage('ma')">首頁</button>
+    <button class="nav-btn" onclick="showPage('about')">個人簡歷</button>
+    <button class="nav-btn" onclick="showPage('portfolio')">作品集</button>
+    <button class="nav-btn" onclick="showPage('attachments')">相關附件</button>
+    <button class="nav-btn" onclick="showPage('awards')">得獎證明</button>
+    <button class="nav-btn" onclick="showPage('aa')">執行計畫</button>
+    <button class="nav-btn" onclick="showPage('bb')">成績單</button>
+  </nav>
+
+  <!-- 主內容 -->
+  <main class="pt-24 px-4 max-w-3xl mx-auto space-y-10">
+
+    <!-- 首頁 -->
+    <section id="ma" class="page">
+
+    </section>
+
+    <!-- 個人簡歷 -->
+    <section id="about" class="page hidden card">
+      <h1 class="text-3xl font-bold mb-4">個人簡歷</h1>
+      
+      <img src="簡歷 .jpg" alt="簡歷" class="w-full max-w-md mx-auto rounded-xl shadow-lg zoomable-img" />
+    </section>
+
+    <section id="portfolio" class="page hidden card">
+      <h1 class="text-3xl font-bold mb-4">作品集</h1>
+      <img src="3.jpg" alt="作品1" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      <img src="4.jpg" alt="作品2" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      <img src="5.jpg" alt="作品3" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      <img src="6.jpg" alt="作品4" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      <img src="安防.jpg" alt="作品5" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+    </section>
+
+    <section id="attachments" class="page hidden card">
+      <h1 class="text-3xl font-bold mb-4">相關附件</h1>
+      <img src="海鮑.jpg" alt="海報1" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      <img src="DSPCDC19-AquaSentry海報.jpg" alt="海報2" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      <img src="DSP20th-安防全到位海報.jpg" alt="海報3" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      <img src="2.png" alt="海報4" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      <img src="第十九屆盛群海報1.jpg" alt="海報5" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      <img src="81588.jpg" alt="海報7" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      <img src="netpaw.jpg" alt="海報6" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      <img src="S__8593453_0.jpg" alt="海報7" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      <img src="S__8593455_0.jpg" alt="海報8" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+
+    </section>
+
+    <section id="awards" class="page hidden card">
+      <h1 class="text-3xl font-bold mb-4">得獎證明</h1>
+      
+      <p>第十八屆教育部數位訊號處理創思設計競賽TEMI物聯網應用組 - 第一名</p>
+      <img src="空汙.jpg" alt="獎狀1" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      <img src="1dsp.jpg" alt="照片1" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      
+      <p>第十九屆教育部數位訊號處理創思設計競賽TEMI物聯網應用組 - 第一名</p>
+      <img src="aquasentry.jpg" alt="獎狀2" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      <img src="2比賽.JPG" alt="照片2" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      
+      <p>第十八屆盛群杯HOLTEK MCU創意大賽 -【智慧控制應用組】 傑出 、【智能健康及智慧居家應用獎】第三名</p>
+      <img src="h4.jpg" alt="獎狀4" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      <img src="h3.jpg" alt="獎狀5" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      <img src="3比賽.JPG" alt="照片4" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      
+      <p>2023 第34屆 ITEX馬來西亞國際發明展 – 銀牌、泰國特別獎</p>
+      <img src="IMG_0626.JPG" alt="照片5" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      
+      <p>2024 IIIC國際發明展 – 銀牌</p>
+      <img src="IIIC 1.jpg" alt="照片6" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      <img src="IIIC 2.jpg" alt="照片7" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      
+    </section>
+
+    <section id="aa" class="page hidden card">
+      <h1 class="text-3xl font-bold mb-4">執行計畫</h1>
+      
+      <p>USR計畫</p>
+      <img src="計畫1 .jpg" alt="1" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      
+      <p>大專學生研究計畫</p>
+      <img src="計畫2 .jpg" alt="2" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      
+      <p>校外實習</p>
+      <img src="計畫 .jpg" alt="3" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+      
+    </section>
+    <section id="bb" class="page hidden card">
+      <h1 class="text-3xl font-bold mb-4">成績單</h1>
+      <img src="download.png" alt="1" class="w-full max-w-md mx-auto rounded-xl shadow-lg mt-4 zoomable-img" />
+    </section>
+
+  </main>
+
+  <script>
+    function showPage(id) {
+      document.querySelectorAll('.page').forEach(page => {
+        page.classList.add('hidden');
+      });
+      document.getElementById(id).classList.remove('hidden');
+    }
+
+    showPage('ma'); // 預設首頁
+  </script>
+</body>
+</html>
